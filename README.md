@@ -39,32 +39,77 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+# 📺 React Simple YouTube Clone
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+A modern YouTube‑style video browsing application built with **React**, **Material UI**, and the **YouTube v3 API (RapidAPI)**.  
+This project follows the structure and best practices demonstrated in the “Build and Deploy 3 Modern React API Applications” course.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🚀 Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- 🎨 **Modern UI** built with Material UI  
+- 📂 **Clean folder architecture** (components, pages, utils, constants)  
+- 🔍 **Category‑based video browsing**  
+- 🧭 **React Router navigation** (Home, Video Details, Channel Details, Search Results)  
+- 🌐 **API‑ready structure** with centralized request utility  
+- 📱 **Fully responsive layout** for desktop and mobile  
+- ⚡ Fast, lightweight, and easy to extend  
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🏗️ Project Structure
 
-### Making a Progressive Web App
+YOUTUBE_CLONE_MADE/
+├── node_modules/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── ChannelDetail.jsx
+│   │   ├── Feed.jsx
+│   │   ├── index.js
+│   │   ├── Navbar.jsx
+│   │   ├── SearchBar.jsx
+│   │   ├── SearchFeed.jsx
+│   │   ├── Sidebar.jsx
+│   │   └── VideoDetail.jsx
+│   ├── utils/
+│   │   └── constants.js
+│   ├── App.js
+│   ├── index.css
+│   └── index.js
+├── .gitignore
+├── package-lock.json
+├── package.json
+└── README.md
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+.
+.
+.
+---
 
-### Advanced Configuration
+## 🧰 Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **React 18**
+- **React Router**
+- **Material UI**
+- **Axios**
+- **RapidAPI – YouTube v3 API**
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📦 Installation & Setup
 
-### `npm run build` fails to minify
+Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/TATCHIwillyjunior/React_Simple_Youtube_clone.git
+cd React_Simple_Youtube_clone
+
+npm install
+
+npm start
+
+
+http://localhost:3000
+
